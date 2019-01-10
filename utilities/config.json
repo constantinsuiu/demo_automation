@@ -1,3 +1,5 @@
 {
-  "baseURL": "http://automationpractice.com"
+  "baseURL": "http://automationpractice.com",
+  "user": "testme@haha.com",
+  "password": "testme123"
 }
