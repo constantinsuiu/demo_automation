@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21e636cd-1a90-4592-8712-985e55b1dce7" name="Default" comment="" />
+    <list default="true" id="21e636cd-1a90-4592-8712-985e55b1dce7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/utilities/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/requirements.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +21,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="727" />
+          <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="14" />
           <entry key="Python" value="727" />
         </counts>
       </usages-collector>
@@ -30,11 +34,12 @@
         <counts>
           <entry key="log" value="1" />
           <entry key="py" value="6" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="6" />
         </counts>
       </usages-collector>
@@ -54,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utilities/utilities.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -63,6 +68,15 @@
                 <marker date="1547135303000" expanded="true" signature="18:19" ph="..." />
                 <marker date="1547135303000" expanded="true" signature="18:20" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utilities/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -125,6 +139,7 @@
         <option value="$PROJECT_DIR$/tests/test_home_page.py" />
         <option value="$PROJECT_DIR$/utilities/driver.py" />
         <option value="$PROJECT_DIR$/utilities/utilities.py" />
+        <option value="$PROJECT_DIR$/utilities/requirements.txt" />
       </list>
     </option>
   </component>
@@ -376,13 +391,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13351713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13351713" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32846716" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32846716" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,6 +517,13 @@
             <marker date="1547135303000" expanded="true" signature="18:19" ph="..." />
             <marker date="1547135303000" expanded="true" signature="18:20" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
