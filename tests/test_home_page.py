@@ -22,5 +22,8 @@ class TestHomePage(unittest.TestCase):
     def test_check_title(self):
         assert("My Store" == self.driver.title)
 
+    def test_git_ignore(self):
+        assert(1==1)
+
 if __name__ == "__main__":
     unittest.main()
