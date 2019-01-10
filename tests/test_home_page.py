@@ -1,6 +1,8 @@
 import unittest
 from utilities.driver import DriverProvider
 from utilities.config import Config
+from selenium import webdriver
+import os
 
 
 class TestHomePage(unittest.TestCase):
