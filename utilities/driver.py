@@ -10,8 +10,10 @@ class DriverProvider:
 
     def __init__(self, browser='chrome'):
         utilities = Utilities()
-        path = utilities.move_up_directory(os.getcwd(), 1)
+        # path = utilities.move_up_directory(os.getcwd(), 1)
+        currentFilePath = os.path.realpath(__file__)
+        new_path = utilities.move_up_directory(currentFilePath, 1)
         if browser.lower() == 'chrome':
-            self.driver_provider = webdriver.Chrome(path + '/utilities/chromedriver')
+            self.driver_provider = webdriver.Chrome(new_path + '/chromedriver')
         elif browser.lower() == 'firefox':
             self.driver_provider = webdriver.Firefox()
